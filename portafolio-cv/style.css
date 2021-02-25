@@ -516,6 +516,10 @@ progress::-webkit-progress-value {
   margin-top: -1rem;
 }
 
+.contact-cards {
+  width: 100%;
+}
+
 .footer {
   margin-bottom: var(--header-height);
   background-color: var(--third-color);
