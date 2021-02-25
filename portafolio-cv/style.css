@@ -457,6 +457,7 @@ progress::-webkit-progress-value {
 }
 .section {
   padding: 2rem 1rem;
+  width: 100%;
 }
 
 .section-title {
