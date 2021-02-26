@@ -641,37 +641,6 @@ progress::-webkit-progress-value {
   color: var(--title-color);
 }
 
-@media screen and (min-width: 320px) {
-  .contact-cards {
-    display: grid;
-    grid-template-columns: repeat(1, 96%);
-    justify-content: space-between;
-  }
-  .portfolio > .container {
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-  }
-
-  .portfolio-modal {
-    flex-direction: row;
-    max-width: 800px;
-  }
-  .portfolio-info {
-    margin: 1rem;
-  }
-  .services > .container {
-    display: grid;
-    grid-template-columns: repeat(1, 90%);
-    justify-content: space-between;
-    align-content: center;
-  }
-
-  .services .section-title,
-  .portfolio .section-title {
-    grid-column: span 1;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .contact-cards {
     display: grid;
