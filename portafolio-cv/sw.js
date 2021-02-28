@@ -6,8 +6,8 @@ urlsToCache = ['./',
 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
 './style.css',
 './script.js',
-'./assets/PortafolioVictorGuerrero.png',
-'./assets/favicon.png'
+'./img/ProgramadorFitness.png',
+'./img/favicon.png'
 ];
 
 //durante la fase de instalacion, generalmente se almacena en cache los activos estaticos
