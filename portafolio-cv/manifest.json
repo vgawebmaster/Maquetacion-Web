@@ -4,7 +4,7 @@
   "background-color":"#2B2B2B",
   "theme-color":"#d90062",
   "orientation":"portrait",
-  "display":"standlone",
+  "display":"standalone",
   "start_url":".?utm_source=web_app_manifest",
   "scope":"./",
   "lang":"es-MX",
