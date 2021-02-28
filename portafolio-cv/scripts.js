@@ -76,3 +76,8 @@ d.addEventListener('click', (e) => {
     })(document);
     
 
+if('ServiceWorker' in navigator){
+navigator.serviceWorker.register('./sw.js')
+.then(reg=>console.log("Registro de SW exitoso", reg))
+.cath(err =>console.log("Error al tratar de registrar el sw", err));    
+}
