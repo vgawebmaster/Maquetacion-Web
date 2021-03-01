@@ -1,3 +1,4 @@
+;
 // asignar un nombre y version al cache 
 const CACHE_NAME = 'v1_cache_portafolio_victor_guerrero',
 urlsToCache = ['./',
