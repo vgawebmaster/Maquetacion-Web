@@ -5,10 +5,10 @@ urlsToCache = ['./',
 'https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap',
 'https://fonts.gstatic.com',
 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css',
-'./style.css',
-'./scripts.js',
-'./img/ProgramadorFitness.png',
-'./img/favicon.png'
+'./portafolio-cv/style.css',
+'./portafolio-cv/scripts.js',
+'./portafolio-cv/img/ProgramadorFitness.png',
+'./portafolio-cv/img/favicon.png'
 ];
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
