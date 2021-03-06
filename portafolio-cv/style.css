@@ -415,6 +415,7 @@ progress::-webkit-progress-value {
 .container {
   margin-left: auto;
   margin-right: auto;
+
   max-width: var(--max-width);
 }
 
@@ -654,6 +655,7 @@ progress::-webkit-progress-value {
 
   .portfolio-modal {
     flex-direction: row;
+
     max-width: 800px;
   }
   .portfolio-info {
