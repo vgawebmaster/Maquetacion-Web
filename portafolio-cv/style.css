@@ -1,9 +1,12 @@
 /****************Custom Properties*********************/
 
 :root {
-  --first-color: #d90062;
-  --first-alpha-color: rgba(217, 0, 98, 0.75);
-  --second-color: #14192d;
+  /* --first-color: #d90062;
+  --first-alpha-color: rgba(217, 0, 98, 0.75); original */
+  --first-color: #149ddd;
+  --first-alpha-color: rgba(20, 157, 221, 0.75);
+  /* --second-color: #14192d; */
+  --second-color: #040b14;
   --second-alpha-color: rgba(20, 25, 45, 0.75);
   --third-color: #501464;
   --third-alpha-color: rgba(80, 20, 100, 0.75);
@@ -13,7 +16,8 @@
   --gray-dark-color: #666;
   --black-color: #000;
   --link-color: #509ee3;
-  --title-color: #333;
+  /* --title-color: #333; */
+  --title-color: #173b6c;
   --text-color: #222;
   --white-alpha-color: rgba(255, 255, 255, 0.5);
   --black-alpha-color: rgba(0, 0, 0, 0.5);
@@ -264,8 +268,17 @@ p {
 }
 
 .hero-image-title {
-  font-size: 7.5vw;
+  /* font-size: 7.5vw; */
+  font-size: 6vw;
   color: var(--hero-text-color);
+}
+
+
+.hero-image-title + p{
+  /* font-size: 7.5vw; */
+  font-size: 4vw;
+  color: var(--white-color);
+
 }
 
 /*Modal interesante*/
@@ -339,7 +352,8 @@ p {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color: var(--first-color);
+  /* color: var(--first-color);  original*/
+  color: var(--white-alpha-color);
 }
 
 .menu a:hover {
@@ -380,6 +394,7 @@ progress {
   width: 100%;
   height: 1rem;
   background-color: var(--gray-color);
+  
 }
 
 progress::-webkit-progress-bar {
@@ -401,9 +416,9 @@ progress::-webkit-progress-value {
   font-size: 0.85rem;
 }
 
-/* progress::-moz-progress-value {
+progress::-moz-progress-value {
   background-color: var(--gray-dark-color);
-} */
+}
 
 /****************Utilities*********************/
 
@@ -523,7 +538,7 @@ progress::-webkit-progress-value {
 
 .footer {
   margin-bottom: var(--header-height);
-  background-color: var(--third-color);
+  background-color: var(--second-color);
   text-align: center;
   padding: 0.5rem;
   color: var(--white-color);
@@ -547,7 +562,8 @@ progress::-webkit-progress-value {
 }
 
 .logo a {
-  color: var(--first-color);
+  /* color: var(--first-color);  original*/
+  color: var(--white-alpha-color);
   font-weight: bold;
   font-size: 2rem;
   text-decoration: none;
@@ -573,6 +589,7 @@ progress::-webkit-progress-value {
   width: 100%;
   height: 100%;
   padding: 1rem;
+  /* background-color: var(--first-alpha-color); */
   background-color: var(--first-alpha-color);
   color: var(--white-color);
   opacity: 0;

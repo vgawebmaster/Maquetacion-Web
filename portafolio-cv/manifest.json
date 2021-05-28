@@ -2,7 +2,7 @@
   "short_name":"#PortafolioVictorGuerrero",
   "description":"Bienvedid@s a #PortafolioVictorGuerrero, donde podras ver un catalogo con mis trabajos y a la vez conocer mis Habilidades.",
   "background-color":"#2B2B2B",
-  "theme-color":"#d90062",
+  "theme-color":"#149ddd",
   "orientation":"portrait",
   "display":"standalone",
   "start_url":"./?utm_source=web_app_manifest",
